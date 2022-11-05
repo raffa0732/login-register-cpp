@@ -81,7 +81,7 @@ void Register()
 
         if (nicknameRegister.empty())
         {
-            std::cout << "\nYou didn't enter the nickname\n";
+            std::cout << "\nYou didn't enter any nickname\n";
             Register();
         }
         else
